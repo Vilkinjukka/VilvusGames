@@ -1,12 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <link rel="icon" scr="./Content/Logo/VgBg.png">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>VG</title>
-  </head>
-  <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>VilvusGames</title>
+    <link rel="icon" href="assets/images/Vg.png">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html">
+                          <img src="assets/images/Vg.png" class="logo-img">
+                        </a>
+                        <a href="index.html" class="logo">Vilvus<em>Games</em></a>
+
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#games">Games</a></li>
+                            <li class="scroll-to-section"><a href="#about">About us</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <img src="assets/images/VgBg.png" id="bg-video">
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>Indie game development from Finland</h6>
+                <h2>Vilvus<em>Games</em></h2>
+                <div class="main-button scroll-to-section">
+                    <a href="#games">View our games</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Games Start ***** -->
+    <section class="section" id="games">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Our <em>Games</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Are you bored and need something to do? <br>
+                          Here is a list of our newest games!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="tabs">
+              <div class="col-lg-4">
+                <ul>
+                  <li><a href='#tabs-1'><img class="gamesIcon" src="assets/images/ccpicon.png" alt="">Crate Crash Pilots</a></li>
+                  <!-- <li><a href='#tabs-2'><img src="assets/images/tabs-first-icon.png" alt="">Crate Smash</a></a></li>-->
+                  <div class="main-rounded-button"><a href="#">View All Games</a></div>
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <section class='tabs-content'>
+                  <article id='tabs-1'>
+                    <img src="assets/images/ccp01.png" alt="Crate Crash Pilots">
+                    <h4>Crate Crash Pilots</h4>
+                    <p>Crate Crash Pilots is an action packed three lane endless runner,
+                      littered with unlockable content and secret bosses! There are epic explosions, wide variety of boosters and much more.
+                    Crate Crash Pilots will keep you entertained for hours!</p>
+                    <div class="main-button">
+                        <a href="#">Download Now</a>
+                        <a href="#">Read More</a>
+                    </div>
+                  </article>
+                  <!--
+                  <article id='tabs-2'>
+                    <img src="assets/images/training-image-02.jpg" alt="Crate Smash">
+                    <h4>Crate Smash</h4>
+                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <div class="main-button">
+                        <a href="#">Download Now</a>
+                    </div>
+                  -->
+                  </article>
+                    </div>
+                  </article>
+                </section>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Games End ***** -->
+
+    <!-- ***** Call to Action Start *****-->
+    <section class="section" id="call-to-action">
+      <div class="call-to-action-overlay">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                  <div class="cta-content">
+                      <h2>Crate Crash <em>Pilots</em>, Our newest <em>release!</em></h2>
+                      <p>We just release Crate Crash Pilots. Go and give it a go! It's an action packed three lane endless runner,
+                        littered with unlockable content and secret bosses!</p>
+                      <div class="main-button scroll-to-section">
+                          <a href="#our-classes">Download now!</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** About Item Start ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>About <em>Us</em></h2>
+                        <img src="assets/images/line-dec.png" alt="waves">
+                        <p>Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this layout for your business website.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="First One">
+                            </div>
+                            <div class="right-content">
+                                <h4>Basic Fitness</h4>
+                                <p>Please do not re-distribute this template ZIP file on any template collection website. This is not allowed.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="second one">
+                            </div>
+                            <div class="right-content">
+                                <h4>New Gym Training</h4>
+                                <p>If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="third gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Basic Muscle Course</h4>
+                                <p>Credit goes to <a rel="nofollow" href="https://www.pexels.com" target="_blank">Pexels website</a> for images and video background used in this HTML template.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
+                            </div>
+                            <div class="right-content">
+                                <h4>Advanced Muscle Course</h4>
+                                <p>You may want to browse through <a rel="nofollow" href="https://templatemo.com/tag/digital-marketing" target="_parent">Digital Marketing</a> or <a href="https://templatemo.com/tag/corporate">Corporate</a> HTML CSS templates on our website.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="training fifth">
+                            </div>
+                            <div class="right-content">
+                                <h4>Yoga Training</h4>
+                                <p>This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Body Building Course</h4>
+                                <p>Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Item End ***** -->
+
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container-fluid">
+              <div class="contact-form">
+                <div class="section-heading">
+                    <h2>Contact <em>Us</em></h2>
+                    <img src="assets/images/line-dec.png" alt="waves">
+                    <p>Feel free to contact us about anything using the form below.<br>
+                    Alternatively, you can also email us directly at vilvusgamesform@gmai.com </p>
+                </div>
+                <form id="contact" action="mailto:vilvusgamesform@gmail.com" method="get" enctype="text/plain" target="_blank">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <fieldset>
+                        <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <fieldset>
+                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                      <fieldset>
+                        <input name="subject" type="text" id="subject" placeholder="Subject">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <textarea name="body" rows="6" id="message" placeholder="Message" required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                        <button type="reset" id="form-reset" class="main-button">Clear Message</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2020 VilvusGames</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/mixitup.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
   </body>
 </html>
