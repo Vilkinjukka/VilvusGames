@@ -164,6 +164,7 @@ body {
   color: #fff;
   text-align: center;
   font-weight: 400;
+  margin-bottom: 8px;
   text-transform: uppercase;
   transition: all .3s;
   margin-right: 10px;
@@ -181,7 +182,7 @@ header
 */
 
 .background-header {
-  background-color: rgba(35, 45, 57, 0.96); !important;
+  background-color: rgba(35, 45, 57, 0.96) !important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -246,6 +247,8 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+
 
 .header-area .main-nav .logo em {
   font-style: normal;
@@ -447,7 +450,7 @@ header
     opacity: 1;
   }
   .header-area {
-    background-color: #232d39;
+    background-color: rgba(35, 45, 57, 0.96);
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -539,7 +542,13 @@ header
   }
 }
 
-
+@media (max-width: 480px) {
+  .logo {
+    font-size: 20px !important;
+    margin-left: 0px !important;
+  }
+}
+]
 /*
 ---------------------------------------------
 banner
@@ -864,6 +873,7 @@ contact
   border: none;
   outline: none;
   margin-top: -8px;
+  margin-bottom: 16px;
   border-radius: 5px;
 }
 
