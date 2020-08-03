@@ -73,6 +73,7 @@
 	    });
 	});
 
+
 	function onScroll(event){
 	    var scrollPos = $(document).scrollTop();
 	    $('.nav a').each(function () {
